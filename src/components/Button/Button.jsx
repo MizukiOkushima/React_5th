@@ -1,3 +1,5 @@
+import styles from "./Button.module.css";
+
 function Button(props) {
   const { type, disabled, children, onClick } = props;
   //   const handleClick = () => {
@@ -9,7 +11,7 @@ function Button(props) {
     //   <i>icon</i>
     //   <span>クリック</span>
     // </button>
-    <button type={type} disabled={disabled} onClick={onClick}>
+    <button className={styles.button} type={type} disabled={disabled} onClick={onClick}>
       {children}
     </button>
   );

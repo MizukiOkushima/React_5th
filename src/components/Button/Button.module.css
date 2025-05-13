@@ -1,0 +1,9 @@
+.button {
+    padding: 10px 20px;
+    background: #f00;
+    color: #fff;
+}
+
+.buttonInner {
+    padding: 30px;
+}
